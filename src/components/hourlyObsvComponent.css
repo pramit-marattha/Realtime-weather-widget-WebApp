@@ -1,0 +1,93 @@
+.hourly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hour {
+    text-align: center;
+    margin: 0 34px;
+    color: var(--blackish);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hour:first-child {
+    margin-left: 0;
+}
+
+.hour:last-child {
+    margin-right: 0;
+}
+
+.hour-icon {
+    width: 70px;
+    height: 70px;
+    margin: 20px 0;
+}
+
+
+.realtime {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.realtime-temp {
+    font-size: 90px;
+    line-height: 60px;
+    font-weight: bold;
+    color: var(--blackish);
+}
+
+.realtime-temp-degrees {
+    color: var(--blackish);
+    font-weight: bold;
+    align-self: flex-start;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.realtime-weather-code{
+    color: var(--blackish);
+}
+
+.realtime-icon {
+    width: 60px;
+    height:60px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .realtime-temp {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .realtime-temp-degrees {
+        margin-right: 10px;
+    }
+
+    .realtime-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .realtime-feels-like {
+        margin-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hourly {
+        flex-direction: column;
+    }
+    .hour {
+        flex-direction: row;
+        margin: 0;
+    }
+}
