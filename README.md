@@ -7,21 +7,22 @@ Cozy weather webApp created with the help of react and Climacell Weather API. Gr
 
 ## It's Live 🎉 Visit here ==>https://realtimeweatherwidget.netlify.app/
 
-# To Embed this whole WebApp into your personal site 
-```<iframe src="https://realtimeweatherwidget.netlify.app/?apikey=YOUR_API_KEY&lat=27&lon=85.&location=kathmandu,nepal" style="width:1px;min-width:100%;height:200px; border:0px;"></iframe>```
-
-
 Desktop Preview | Mobile preview
 :------:|:-------:
 ![Desktop](https://user-images.githubusercontent.com/37651620/88481764-06ca3c00-cf7d-11ea-9ac9-be434364d3db.png) |![Mobile](https://user-images.githubusercontent.com/37651620/88481767-07fb6900-cf7d-11ea-9c75-883b81d3c1bc.png)
+---
+
+# To Embed this whole WebApp into your personal site 
+```<iframe src="https://realtimeweatherwidget.netlify.app/?apikey=YOUR_API_KEY&lat=27&lon=85.&location=kathmandu,nepal" style="width:1px;min-width:100%;height:200px; border:0px;"></iframe>```
 
 ---
+
 ## If you want to Install Locally
 - First step is to download this repo 
 - place it inside a project directory 
 - Then Configure the `useWeatherHooks` insert your own Climacell Weather API and also insert your own desired latitude and longitude.
 
-## `Insert your own Climacell Weather API`
+## `Insert your own Climacell Weather API key`
 
 ### Setup process
 type `npm start`
